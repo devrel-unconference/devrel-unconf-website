@@ -48,11 +48,11 @@ params:
 
   assets:
     disableFingerprinting: true
-    favicon: images/bracket-logo-thumbnail.svg
-    favicon16x16: images/bracket-logo-thumbnail.svg
-    favicon32x32: images/bracket-logo-thumbnail.svg
-    apple_touch_icon: images/bracket-logo-thumbnail.svg
-    safari_pinned_tab: images/bracket-logo-thumbnail.svg
+    favicon: "images/stylized-25px.svg"
+    favicon16x16: "images/stylized-25px.svg"
+    favicon32x32: "images/stylized-25px.svg"
+    apple_touch_icon: "images/stylized-25px.svg"
+    safari_pinned_tab: "images/stylized-25px.svg"
   ShowReadingTime: true
   ShowBreadCrumbs: true
 
@@ -84,17 +84,17 @@ params:
     speakersTitle: Speakers
     speakersDescription: Say hello to this year's speakers
     speakers:
-    - imageUrl: /uploads/portfolio-1.webp
+    - imageUrl: images/free-avatar-image.png # https://www.seekpng.com/ipng/u2w7i1y3y3i1r5i1_this-free-clipart-png-design-of-blank-avatar/
       alt: # image alt for better SEO
-      description: Portfolio One.
+      description: Speaker One
       websiteUrl: #
-    - imageUrl: /uploads/portfolio-2.webp
+    - imageUrl: images/free-avatar-image.png # https://www.seekpng.com/ipng/u2w7i1y3y3i1r5i1_this-free-clipart-png-design-of-blank-avatar/
       alt: # image alt for better SEO
-      description: Portfolio Two.
+      description: Speaker Two
       websiteUrl: #
-    - imageUrl: /uploads/portfolio-3.webp
+    - imageUrl: images/free-avatar-image.png # https://www.seekpng.com/ipng/u2w7i1y3y3i1r5i1_this-free-clipart-png-design-of-blank-avatar/
       alt: # image alt for better SEO
-      description: Portfolio Three.
+      description: Speaker Three
       websiteUrl: #
     # Sponsors Section
     disableSponsorsSection: false
