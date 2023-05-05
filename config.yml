@@ -127,26 +127,41 @@ menus:
   #   pre: search
   #   url: "/search"
   #   weight: "30"
+  - name: Speakers
+    title: Speakers
+    pre: users
+    url: "#speakers"
+    weight: "30"
+  - name: Sponsors
+    title: Sponsors
+    pre: package
+    url: "#sponsors"
+    weight: "40"
+  - name: Agenda
+    title: Agenda
+    pre: calendar
+    url: "#agenda"
+    weight: "50"
   - name: Contact
     title: Contact
     pre: mail
     url: "/contact"
-    weight: "40"
+    weight: "60"
   - name: Github
     title: 
     pre: github
     url: https://github.com/devrel-unconference/devrel-unconf-website
-    weight: "50"
-  search: # Search page's quick links
-  - name: Categories
-    title: Categories
-    url: "/categories"
-    weight: "10"
-  - name: Archives
-    title: Archives
-    url: "/archives"
-    weight: "20"
-  - name: Tags
-    title: Tags
-    url: "/tags"
-    weight: "30"
+    weight: "70"
+  # search: # Search page's quick links
+  # - name: Categories
+  #   title: Categories
+  #   url: "/categories"
+  #   weight: "10"
+  # - name: Archives
+  #   title: Archives
+  #   url: "/archives"
+  #   weight: "20"
+  # - name: Tags
+  #   title: Tags
+  #   url: "/tags"
+  #   weight: "30"

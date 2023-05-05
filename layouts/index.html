@@ -94,7 +94,7 @@ url('{{.Site.Params.homepage.heroBackgroundImage}}'); ">
 {{ end }}
 
 {{- if not (.Site.Params.homepage.disableSpeakersSection) }}
-<section>
+<section id="speakers">
   <hgroup class="text-center">
     <h2>{{.Site.Params.homepage.speakersTitle}}</h2>
     <h3>{{.Site.Params.homepage.speakersDescription}}</h3>
@@ -123,7 +123,7 @@ url('{{.Site.Params.homepage.heroBackgroundImage}}'); ">
 {{ end }}
 
 {{- if not (.Site.Params.homepage.disableSponsorsSection) }}
-<section>
+<section id="sponsors">
   <hgroup class="text-center">
     <h2>{{.Site.Params.homepage.sponsorsTitle}}</h2>
     <h3>{{.Site.Params.homepage.sponsorsDescription}}</h3>
