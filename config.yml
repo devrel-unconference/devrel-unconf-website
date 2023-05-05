@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313"
+baseURL: "https://devrel-unconference.com"
 languageCode: en-us
 title: "DevRel Unconference 2024"
 theme: piko
