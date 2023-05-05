@@ -1,0 +1,152 @@
+baseURL: "http://localhost:1313"
+languageCode: en-us
+title: "DevRel Unconference 2024"
+theme: piko
+paginate: "9"
+Copyright: "DevRel Unconference"
+googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepWhitespace: false
+
+params:
+  analytics:
+    google:
+      SiteVerificationTag: # Google Site Verification
+    bing:
+      SiteVerificationTag: # Bing Site Verification
+  env: development
+
+  description: "Developer Relations Unconference 2024: TBA"
+  label:
+    darkNavIcon: "images/stylized-25px.svg"
+    lightNavIcon: "images/stylized-25px.svg"
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  ShowRelated: true
+  CookieNotice: We use cookies to improve your experience on our site and to show
+    you relevant advertising.
+  CookieLink: /legal/privacy/#cookies-and-web-beacons
+
+  assets:
+    disableFingerprinting: true
+    favicon: images/bracket-logo-thumbnail.svg
+    favicon16x16: images/bracket-logo-thumbnail.svg
+    favicon32x32: images/bracket-logo-thumbnail.svg
+    apple_touch_icon: images/bracket-logo-thumbnail.svg
+    safari_pinned_tab: images/bracket-logo-thumbnail.svg
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+
+  homepage:
+    # Hero section
+    disableHeroSection: false
+    heroUpperText: "DevRel Unconference 2024"
+    hereText: "DevRel Unconference"
+    heroTitle: "DevRel Unconference 2024"
+    heroDescription: "A conference for developer relations professionals where conversation is the point."
+    heroCTAPrimaryText: About
+    heroCTAPrimaryUrl: "#about"
+    heroCTASecondaryText: Contact Organizers
+    heroCTASecondaryUrl: "/contact/"
+    heroBackgroundImage: "images/stem-list-EVgsAbL51Rk-unsplash-min.jpg" # https://unsplash.com/photos/EVgsAbL51Rk
+    # Blog Section
+    disableBlogSection: false
+    blogTitle: Latest News
+    blogDescription: Find out the latest news on the unconference
+    seeMoreText: More
+    # About Section    
+    disableAboutSection: false
+    aboutTitle: About Us
+    aboutDescription: About DevRel Unconference and the organizers
+    aboutImgUrl: "images/sam-moghadam-khamseh-IfxXudgTs8Q-unsplash.jpg" # https://unsplash.com/photos/IfxXudgTs8Q
+    aboutContent: "We are some peeps who care about DevRel and want to make a conference that is different from the rest."
+    # Speakers Section
+    disableSpeakersSection: false
+    speakersTitle: Speakers
+    speakersDescription: Say hello to this year's speakers
+    speakers:
+    - imageUrl: /uploads/portfolio-1.webp
+      alt: # image alt for better SEO
+      description: Portfolio One.
+      websiteUrl: #
+    - imageUrl: /uploads/portfolio-2.webp
+      alt: # image alt for better SEO
+      description: Portfolio Two.
+      websiteUrl: #
+    - imageUrl: /uploads/portfolio-3.webp
+      alt: # image alt for better SEO
+      description: Portfolio Three.
+      websiteUrl: #
+    # Sponsors Section
+    disableSponsorsSection: false
+    sponsorsTitle: Sponsors
+    sponsorsDescription: Thank you to our sponsors
+    sponsors:
+    - imageUrl: /uploads/sponsor-1.webp
+      alt: # image alt for better SEO
+      description: Sponsor One.
+      websiteUrl: #
+    - imageUrl: /uploads/sponsor-2.webp
+      alt: # image alt for better SEO
+      description: Sponsor Two.
+      websiteUrl: #
+  plugins:
+    css:
+    - link: plugins/css/pico.min.css
+    js:
+    - link: plugins/js/feather.min.js
+
+menus:
+  main: # Main Menu
+  - name: Blog
+    title: Blog
+    pre: pen-tool
+    url: "/blog"
+    weight: "20"
+  # - name: Search
+  #   title: Search
+  #   pre: search
+  #   url: "/search"
+  #   weight: "30"
+  - name: Contact
+    title: Contact
+    pre: mail
+    url: "/contact"
+    weight: "40"
+  - name: Github
+    title: 
+    pre: github
+    url: https://github.com/devrel-unconference/devrel-unconf-website
+    weight: "50"
+  search: # Search page's quick links
+  - name: Categories
+    title: Categories
+    url: "/categories"
+    weight: "10"
+  - name: Archives
+    title: Archives
+    url: "/archives"
+    weight: "20"
+  - name: Tags
+    title: Tags
+    url: "/tags"
+    weight: "30"
