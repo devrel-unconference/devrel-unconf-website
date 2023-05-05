@@ -62,7 +62,7 @@ params:
     heroUpperText: "DevRel Unconference 2024"
     hereText: "DevRel Unconference"
     heroTitle: "DevRel Unconference 2024"
-    heroDescription: "A conference for developer relations professionals where conversation is the point."
+    heroDescription: "A conference for developer relations professionals where conversation and moving forward is the point."
     heroCTAPrimaryText: About
     heroCTAPrimaryUrl: "#about"
     heroCTASecondaryText: Contact Organizers
@@ -147,11 +147,16 @@ menus:
     pre: mail
     url: "/contact"
     weight: "60"
+  - name: Twitter
+    title: 
+    pre: twitter
+    url: https://twitter.com/DevRel_Unconf
+    weight: "70"
   - name: Github
     title: 
     pre: github
     url: https://github.com/devrel-unconference/devrel-unconf-website
-    weight: "70"
+    weight: "80"
   # search: # Search page's quick links
   # - name: Categories
   #   title: Categories
