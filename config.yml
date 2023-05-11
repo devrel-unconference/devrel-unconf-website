@@ -101,13 +101,17 @@ params:
     sponsorsTitle: Sponsors
     sponsorsDescription: Thank you to our sponsors
     sponsors:
-    - imageUrl: /uploads/sponsor-1.webp
+    - imageUrl: images/robert-stump-bwpgwJesFhw-unsplash.jpg #https://unsplash.com/photos/bwpgwJesFhw
       alt: # image alt for better SEO
       description: Sponsor One.
       websiteUrl: #
-    - imageUrl: /uploads/sponsor-2.webp
+    - imageUrl: images/robert-stump-bwpgwJesFhw-unsplash.jpg #https://unsplash.com/photos/bwpgwJesFhw
       alt: # image alt for better SEO
       description: Sponsor Two.
+      websiteUrl: #
+    - imageUrl: images/robert-stump-bwpgwJesFhw-unsplash.jpg #https://unsplash.com/photos/bwpgwJesFhw
+      alt: # image alt for better SEO
+      description: Sponsor Three.
       websiteUrl: #
   plugins:
     css:
